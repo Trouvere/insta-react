@@ -1,9 +1,13 @@
 import React from "react";
+import "./index.css";
+import Header from "./components/header";
+import Feed from "./components/feed";
 
 function App() {
   return (
     <div className="App">
-      <h1>test</h1>
+      <Header />
+      <Feed />
     </div>
   );
 }
