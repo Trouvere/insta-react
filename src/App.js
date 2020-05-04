@@ -2,12 +2,14 @@ import React from "react";
 import "./index.css";
 import Header from "./components/header";
 import Feed from "./components/feed";
+import Profile from "./components/profile";
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Feed />
+      <Profile />
     </div>
   );
 }
