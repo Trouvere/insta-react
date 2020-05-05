@@ -1,25 +1,26 @@
 import React, { Component } from "react";
 import logo from "../logo.svg";
+import { Link } from "react-router-dom";
 
 export default class Header extends Component {
   render() {
     return (
       <header>
         <div className="container h-flex">
-          <a href="#" className="logo">
+          <Link to="/" className="logo">
             <img alt="logo" src={logo} />
-          </a>
+          </Link>
           <nav className="links">
             <ul>
               <li>
-                <a href="#" className="menu__link">
+                <Link to="/" className="link">
                   Лента
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="menu__link">
+                <Link to="/profile" className="link">
                   Профиль
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
